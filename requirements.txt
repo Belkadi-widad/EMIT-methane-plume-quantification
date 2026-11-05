@@ -1,0 +1,12 @@
+rasterio
+pyproj
+numpy
+geojson
+xarray
+requests
+pystac-client
+pandas
+matplotlib
+cdsapi
+python-dateutil
+shapely
