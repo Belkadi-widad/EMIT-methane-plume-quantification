@@ -60,12 +60,6 @@ emissions_kg_per_hour = calc_Q_IME(
 
 The notebook contains the full workflow, including wind-data retrieval and comparisons with Carbon Mapper products.
 
-## Data and credentials
-
-Large remote-sensing rasters and downloaded meteorological files are intentionally excluded from version control by `.gitignore`. Keep local datasets outside the repository when possible and do not commit API keys, passwords, or tokens.
-
-Carbon Mapper requests require an account. Pass credentials at runtime (for example through environment variables or a secret manager); never hard-code them in source files.
-
 ## Scientific notes
 
 The current analysis compares retrieval, segmentation, and quantification differences between EMIT and Carbon Mapper products. The conversion constants and effective-wind model should be treated as analysis assumptions and validated against the product documentation before publishing scientific conclusions.
